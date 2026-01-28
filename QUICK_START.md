@@ -5,9 +5,9 @@
 ## 🚀 安装 (1 分钟)
 
 ### 需要准备
-- ✅ Minecraft 1.21.4
-- ✅ Fabric Loader
-- ✅ Fabric API
+- ✅ Minecraft 1.21 - 1.21.4
+- ✅ Fabric Loader (0.16.0+)
+- ✅ Fabric API (对应版本)
 
 ### 安装步骤
 1. 下载 `cosmiccore-client-1.0.0.jar`

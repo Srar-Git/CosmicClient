@@ -1,6 +1,6 @@
 # Cosmic Client - 客户端按键绑定模组
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.4-brightgreen.svg)](https://www.minecraft.net/)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21--1.21.4-brightgreen.svg)](https://www.minecraft.net/)
 [![Fabric](https://img.shields.io/badge/Fabric-0.110.5-blue.svg)](https://fabricmc.net/)
 [![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/)
 
@@ -55,13 +55,13 @@ Cosmic Client 是一个 Fabric 模组,为 Minecraft 客户端提供与服务端 
 ## 🔧 环境要求
 
 ### 客户端要求
-- **Minecraft 版本**: 1.21.4
-- **Fabric Loader**: 0.16.9+
-- **Fabric API**: 0.110.5+1.21.4
+- **Minecraft 版本**: 1.21 - 1.21.4
+- **Fabric Loader**: 0.16.0+
+- **Fabric API**: 0.110.0+ (对应版本)
 - **Java 版本**: 21 或更高
 
 ### 服务端要求
-- **服务端**: Paper/Folia 1.21.4
+- **服务端**: Paper/Folia 1.21 - 1.21.4
 - **插件**: CosmicCore (包含 KeybindManager)
 
 ## 📦 安装方法
@@ -71,12 +71,19 @@ Cosmic Client 是一个 Fabric 模组,为 Minecraft 客户端提供与服务端 
 如果还没有安装 Fabric,请先下载并安装 [Fabric Installer](https://fabricmc.net/use/installer/):
 
 1. 下载 Fabric Installer
-2. 运行安装程序,选择 Minecraft 1.21.4 版本
+2. 运行安装程序,选择你的 Minecraft 版本 (1.21 - 1.21.4)
 3. 安装 Fabric Loader
 
 ### 2. 安装 Fabric API
 
-下载 [Fabric API 0.110.5+1.21.4](https://www.curseforge.com/minecraft/mc-mods/fabric-api) 并放入 `.minecraft/mods` 文件夹。
+下载对应 Minecraft 版本的 [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) 并放入 `.minecraft/mods` 文件夹。
+
+**版本对应关系:**
+- Minecraft 1.21: Fabric API 0.100.0+
+- Minecraft 1.21.1: Fabric API 0.102.0+
+- Minecraft 1.21.2: Fabric API 0.105.0+
+- Minecraft 1.21.3: Fabric API 0.108.0+
+- Minecraft 1.21.4: Fabric API 0.110.0+
 
 ### 3. 安装 Cosmic Client 模组
 
