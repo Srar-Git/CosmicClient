@@ -3,7 +3,7 @@
     "minVersion": "0.8",
     "package": "cn.pixelwar.cosmic.client.mixin",
     "compatibilityLevel": "JAVA_21",
-    "refmap": "cosmic-client.refmap.json",
+    "refmap": "client-cosmic-client-refmap.json",
     "client": [
         "KeyboardMixin",
         "KeyBindingAccessor",
