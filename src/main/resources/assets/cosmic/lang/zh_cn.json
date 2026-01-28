@@ -1,0 +1,17 @@
+{
+    "cosmic.keybind.category.skills": "技能",
+    "cosmic.keybind.category.general": "通用",
+    "cosmic.keybind.category.ultimate": "终极技能",
+    "cosmic.keybind.skill_r": "技能 R",
+    "cosmic.keybind.skill_f": "技能 F",
+    "cosmic.keybind.skill_g": "技能 G",
+    "cosmic.keybind.skill_v": "技能 V",
+    "cosmic.keybind.skill_c": "技能 C",
+    "cosmic.keybind.skill_shift_q": "终极技能",
+    "cosmic.gui.keybind.title": "Cosmic 按键设置",
+    "cosmic.gui.keybind.button": "Cosmic 按键",
+    "cosmic.message.keybind.pressed": "按键按下: %s",
+    "cosmic.message.keybind.released": "按键释放: %s",
+    "cosmic.message.server.connected": "已连接到 Cosmic 服务器",
+    "cosmic.message.server.disconnected": "已断开与 Cosmic 服务器的连接"
+}

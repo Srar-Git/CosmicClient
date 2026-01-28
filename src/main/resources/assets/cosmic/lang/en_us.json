@@ -1,0 +1,17 @@
+{
+    "cosmic.keybind.category.skills": "Skills",
+    "cosmic.keybind.category.general": "General",
+    "cosmic.keybind.category.ultimate": "Ultimate",
+    "cosmic.keybind.skill_r": "Skill R",
+    "cosmic.keybind.skill_f": "Skill F",
+    "cosmic.keybind.skill_g": "Skill G",
+    "cosmic.keybind.skill_v": "Skill V",
+    "cosmic.keybind.skill_c": "Skill C",
+    "cosmic.keybind.skill_shift_q": "Ultimate Skill",
+    "cosmic.gui.keybind.title": "Cosmic Keybind Settings",
+    "cosmic.gui.keybind.button": "Cosmic Keybinds",
+    "cosmic.message.keybind.pressed": "Key pressed: %s",
+    "cosmic.message.keybind.released": "Key released: %s",
+    "cosmic.message.server.connected": "Connected to Cosmic server",
+    "cosmic.message.server.disconnected": "Disconnected from Cosmic server"
+}

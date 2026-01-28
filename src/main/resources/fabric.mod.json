@@ -1,0 +1,43 @@
+{
+    "schemaVersion": 1,
+    "id": "cosmic-client",
+    "version": "${version}",
+    "name": "Cosmic Client",
+    "description": "Cosmic 按键系统客户端模组，支持自定义按键绑定和服务端通信",
+    "authors": [
+        "CosmicCore Team"
+    ],
+    "contact": {
+        "homepage": "https://github.com/pixelwar/cosmic",
+        "sources": "https://github.com/pixelwar/cosmic"
+    },
+    "license": "MIT",
+    "icon": "assets/cosmic/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "cn.pixelwar.cosmic.client.CosmicClient"
+        ]
+    },
+    "mixins": [
+        "cosmic-client.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric-api": "*",
+        "minecraft": "${minecraft_version}"
+    },
+    "suggests": {
+        "another-mod": "*"
+    },
+    "custom": {
+        "modmenu": {
+            "badges": ["client"],
+            "parent": {
+                "id": "cosmic",
+                "name": "Cosmic",
+                "description": "Cosmic 服务器生态系统"
+            }
+        }
+    }
+}
